@@ -158,7 +158,8 @@ ul li a:hover {
   transition: background 0.2s;
   border-radius: 50%;
 }
-/* Hover serve para quando passar o mouse em cima gerar um efeito de  */
+/* Hover serve para quando passar o mouse em cima gerar um efeito de trasição nos links das redes socias
+ */
 #social-links a:hover {
   background: var(--highligt-color);
 }
