@@ -1,8 +1,6 @@
 body {
-  background-repeat: no-repeat; /* Não repitir imagem adicionada*/
-  background-position: top center; /* Posiciona a imgem para iniciar do y para o x */
-  background-size: cover; /* Cobrir espaçao visivel a tela em mobile */
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 * {
@@ -152,4 +150,15 @@ ul li a:hover {
 footer {
   padding: 24px 0;
   text-align: center;
+}
+
+/* media queries */
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop-dark.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-litgth.jpg);
+  }
 }
